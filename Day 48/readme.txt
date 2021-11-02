@@ -1,0 +1,1 @@
+There was no writing of code today, instead I watched a presentation made by Paul Hudson. Here's the link: https://vimeo.com/295238750
