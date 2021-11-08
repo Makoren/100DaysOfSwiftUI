@@ -1,6 +1,6 @@
 //
-//  coredatatestApp.swift
-//  coredatatest
+//  BookwormApp.swift
+//  Bookworm
 //
 //  Created by Luke Lazzaro on 8/11/21.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct coredatatestApp: App {
+struct BookwormApp: App {
     let persistenceController = PersistenceController.shared
 
     var body: some Scene {

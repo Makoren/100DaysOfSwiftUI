@@ -1,6 +1,6 @@
 //
 //  Persistence.swift
-//  coredatatest
+//  Bookworm
 //
 //  Created by Luke Lazzaro on 8/11/21.
 //
@@ -31,7 +31,7 @@ struct PersistenceController {
     let container: NSPersistentContainer
 
     init(inMemory: Bool = false) {
-        container = NSPersistentContainer(name: "coredatatest")
+        container = NSPersistentContainer(name: "Bookworm")
         if inMemory {
             container.persistentStoreDescriptions.first!.url = URL(fileURLWithPath: "/dev/null")
         }
